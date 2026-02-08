@@ -5,11 +5,11 @@ abstract class Category{
     abstract public function getMyCategory();
 }
 
-class Attualita extends Category{
+class News extends Category{
 
     public function getMyCategory()
     {
-        return "Attualità\n";
+        return "News \n";
     }
 }
 
@@ -17,7 +17,7 @@ class Sport extends Category{
 
     public function getMyCategory()
     {
-        return "Sport\n";
+        return "Sport \n";
     }
 }
 
@@ -25,17 +25,17 @@ class Gossip extends Category{
 
     public function getMyCategory()
     {
-        return "Gossip\n";
+        return "Gossip \n";
     }
 }
 
-class Storia extends Category{
+class History extends Category{
 
     public function getMyCategory()
     {
-        return "Storia\n";
+        return "History \n";
     }
 }
 
-$storia = new Storia();
-echo $storia->getMyCategory();
+$Storia = new History();
+// echo $storia->getMyCategory();
